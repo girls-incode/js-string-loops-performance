@@ -77,10 +77,9 @@ console.timeEnd();
 // ~ 12ms
 ```
 
-```
-// The conclusion: keep it simple and fast with the classic "for" loop for normal chars and "for of" for 
-// unicode ones
 
+The conclusion: keep it simple and fast with the classic "for" loop for strings with normal chars and "for of" for unicode ones
+```
 for (let c of str) {
   if (c != '') {
 	  if (vowels.indexOf(c) > -1) {
